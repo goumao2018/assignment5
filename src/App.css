@@ -1,0 +1,28 @@
+
+.Card-container{
+  padding: 20px 40px 10px;
+  background-color:rgb(230, 230, 230);
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Times Roman', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+ 
+@media only screen and (max-width: 600px) {
+  .Card-container {
+      background-color: lightblue;
+  }
+ }
+
+.Card-column{
+ 
+  -webkit-column-count: 3; 
+  justify-content: center;
+  column-count: 3; 
+  
+}
+
+
